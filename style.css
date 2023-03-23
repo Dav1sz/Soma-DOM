@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Alkatra';
+    src: url(Alkatra/Alkatra-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+}
+
+.hot {
+    background-image: linear-gradient(to top, orange,red);
+    height: 100vh;
+    width: 50%;
+    font-family: 'Alkatra';
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.ice{
+    background-image: linear-gradient(to top, blue,aqua);
+    height: 100vh;
+    width: 50%;
+    font-family: 'Alkatra';
+    text-align: center;
+    font-size: 40px;
+}
+
+#valor1, input#valor2  {
+    font-size: 25px;
+}
+
+input{
+    font-size: 24px;
+    border: 2px solid black;
+}
+
+#valor3, input#valor4 {
+    font-size: 25px;
+}
+
+footer{
+    color: white;
+    font-size: 24px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0vh;
+    left: 0;
+    background-image: linear-gradient(to left, blue ,blue ,blue,orange, orange,orange);
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+
+
